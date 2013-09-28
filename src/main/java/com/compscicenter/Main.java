@@ -11,53 +11,11 @@ package com.compscicenter;
 *
 * */
 
+import java.io.File;
+
 public class Main {
 
-    private static void queryAction(Query query, Storage storage) {
-        switch (query.type) {
-            case ADD : {
-                if (storage.isExist(query.rec)) {
-                    System.out.println("This person is already exists. Try command 'update'");
-                } else {
-                    storage.addRecord(query.rec);
-                    System.out.println("The record with this person was created");
-                }
-                break;
-            }
-            case GET : {
-                Record rec = storage.getRecord(query.rec.name);
-                if (rec != null) {
-                    System.out.println(rec.number);
-                } else {
-                    System.out.println("This person doesn't exist!");
-                }
-                break;
-            }
-            case DELETE : {
-                Record rec = storage.deleteRecord(query.rec.name);
-                if (rec != null) {
-                    System.out.println("Person " + rec.name + " with number " + rec.number + " was deleted") ;
-                } else {
-                    System.out.println("This person doesn't exist!");
-                }
-                break;
-            }
-            case UPDATE : {
-                if (storage.isExist(query.rec)) {
-                    storage.addRecord(query.rec);
-                    System.out.println("Record for person " + query.rec.name +" was updated");
-                } else {
-                    System.out.println("This person doesn't exist!");
-                }
-                break;
-            }
-            case ERROR : {
-                System.out.println("ERROR! Try again!");
-                break;
-            }
-        }
 
-    }
 
     private static void printInfo() {
         System.out.println("Storage system 'Telephone directory'");
@@ -70,19 +28,39 @@ public class Main {
         System.out.println("Print exit for exit.");
     }
 
+    private static void logInfo(Parser p, Storage s) {
+        File f = new File("log/Storage_system.log");
+        if (f.exists()) {
+            File fNew = new File("log/Storage_system.log.in");
+            f.renameTo(fNew);
+
+            System.out.println("Log file exists on your device");
+            System.out.println("Would you like to restore your Storage system from it?(1 - true/0 - false)");
+            Integer ans = p.nextInt();
+            if (ans == 1) {
+                s.restoreFromLog();
+            }
+            fNew.deleteOnExit();
+        }
+    }
+
     public static void main(String[] args) {
 
 	    Parser parser = new Parser();
         Storage storage = new Storage();
         printInfo();
+        logInfo(parser, storage);
 
-        while (parser.scanner.hasNextLine()) {
+        storage.init();
+
+        while (parser.hasNextLine()) {
             Query query = parser.getString();
             if (query.type == QueryType.EXIT) {
                 System.out.println("Bye-bye!");
                 break;
             } else {
-                queryAction(query, storage);
+                storage.queryAction(query);
+                storage.addLog(query);
                 System.out.println("Print a command:");
             }
         }

@@ -9,13 +9,27 @@ import java.util.regex.Pattern;
  *
  */
 public class Parser {
-    Scanner scanner;
-    Pattern nameNumber;
+    private Scanner scanner;
 
     Parser() {
         scanner = new Scanner(System.in);
-        nameNumber = Pattern.compile("[a-zA-Z]+ [0-9]+");
 
+    }
+
+    public boolean hasNextLine() {
+        return this.scanner.hasNextLine();
+    }
+
+    public boolean hasNextInt() {
+        return this.scanner.hasNextInt();
+    }
+
+    public String next() {
+        return this.scanner.next();
+    }
+
+    public Integer nextInt() {
+        return this.scanner.nextInt();
     }
 
     protected Query getString() {

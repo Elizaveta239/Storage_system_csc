@@ -1,5 +1,7 @@
 package com.compscicenter;
 
+import java.io.Serializable;
+
 /**
  * Created with IntelliJ IDEA.
  * User: elizabeth
@@ -7,7 +9,7 @@ package com.compscicenter;
  * Time: 12:48 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Record {
+public class Record implements Serializable {
     String name;
     String number;
 
