@@ -28,7 +28,11 @@ public class Storage <K, V> {
 
     public void init() {
         try {
-            this.logFileOut = new FileOutputStream("log/Storage_system.log");
+            //File fNew = new File("log/Storage_system.in.log");
+            //File fOld = new File("log/Storage_system.in.log");
+            //fOld.renameTo(fNew);
+            //this.logFileOut = new FileOutputStream(fNew, true);
+            this.logFileOut = new FileOutputStream("log/Storage_system.log", true);
             this.objLogFileOut = new ObjectOutputStream(logFileOut);
         } catch (Exception e) {
             System.out.println("Log file not found!");
@@ -51,7 +55,7 @@ public class Storage <K, V> {
 
     public void restoreFromLog() {
         try {
-            this.logFileIn = new FileInputStream("log/Storage_system.log.in");
+            this.logFileIn = new FileInputStream("log/Storage_system.in.log");
             this.objLogFileIn = new ObjectInputStream(logFileIn);
 
         } catch (Exception e) {
@@ -63,6 +67,7 @@ public class Storage <K, V> {
             while (true) {
                 save = (Save) objLogFileIn.readObject();
                 this.queryAction(save.q);
+                addLog(save.q);
             }
         } catch (EOFException e) {
         } catch (Exception e) {
@@ -106,6 +111,7 @@ public class Storage <K, V> {
             case ADD : {
                 if (this.isExist(query.rec)) {
                     System.out.println("This person "  + query.rec.name + " is already exists. Try command 'update'");
+                    query.type = QueryType.ERROR;
                 } else {
                     this.addRecord(query.rec);
                     System.out.println("The record with person "  + query.rec.name + " was created");
@@ -118,6 +124,7 @@ public class Storage <K, V> {
                     System.out.println(rec.number);
                 } else {
                     System.out.println("This person doesn't exist!");
+                    query.type = QueryType.ERROR;
                 }
                 break;
             }
@@ -127,6 +134,7 @@ public class Storage <K, V> {
                     System.out.println("Person " + rec.name + " with number " + rec.number + " was deleted") ;
                 } else {
                     System.out.println("This person doesn't exist!");
+                    query.type = QueryType.ERROR;
                 }
                 break;
             }
@@ -136,6 +144,7 @@ public class Storage <K, V> {
                     System.out.println("Record for person " + query.rec.name +" was updated");
                 } else {
                     System.out.println("This person doesn't exist!");
+                    query.type = QueryType.ERROR;
                 }
                 break;
             }
