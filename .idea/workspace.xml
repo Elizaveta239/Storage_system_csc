@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4153f9-fe13-4541-ac24-b3a7f3da7625" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Storage_system.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380480166857" ignored="false" />
+    <file path="/Dummy.txt" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380480576578" ignored="false" />
     <file path="$PROJECT_DIR$/../Storage_system/.idea/workspace.xml" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380309477931" ignored="false" />
     <file path="/Parser.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380403366667" ignored="false" />
     <file path="/Save.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380399608506" ignored="false" />
@@ -80,7 +79,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="1.6277128">
+            <state line="12" column="43" selection-start="224" selection-end="224" vertical-scroll-proportion="0.30050084">
               <folding />
             </state>
           </provider>
@@ -444,7 +443,11 @@
       <created>1380480173249</created>
       <updated>1380480173249</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some log changes">
+      <created>1380480581445</created>
+      <updated>1380480581445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -515,7 +518,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="log works correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="some log changes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -532,6 +535,7 @@
     <MESSAGE value="correct file name" />
     <MESSAGE value="log file added" />
     <MESSAGE value="log works correctly" />
+    <MESSAGE value="some log changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -648,7 +652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1849" selection-end="1849" vertical-scroll-proportion="1.6277128">
+        <state line="12" column="43" selection-start="224" selection-end="224" vertical-scroll-proportion="0.30050084">
           <folding />
         </state>
       </provider>
