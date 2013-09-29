@@ -1,8 +1,6 @@
 package com.compscicenter;
 
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Class for parsing requests from command line
@@ -18,14 +16,6 @@ public class Parser {
 
     public boolean hasNextLine() {
         return this.scanner.hasNextLine();
-    }
-
-    public boolean hasNextInt() {
-        return this.scanner.hasNextInt();
-    }
-
-    public String next() {
-        return this.scanner.next();
     }
 
     public Integer nextInt() {
