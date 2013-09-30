@@ -15,8 +15,6 @@ import java.io.File;
 
 public class Main {
 
-
-
     private static void printInfoShort() {
         System.out.println("Storage system 'Telephone directory'");
         System.out.println("Elizaveta Shashkova, CSC, 2013");

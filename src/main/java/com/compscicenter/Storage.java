@@ -74,8 +74,6 @@ public class Storage <K, V> {
             e.printStackTrace();
             System.out.println("ERROR: Unable to read from log file!");
         }
-
-
     }
 
     public boolean isExist(Record rec) {
