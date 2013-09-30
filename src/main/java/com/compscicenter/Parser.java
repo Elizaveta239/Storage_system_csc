@@ -24,8 +24,8 @@ public class Parser {
 
     protected Query getString() {
         String str = this.scanner.next();
-        str.toLowerCase();
-        str.trim();
+        str = str.toLowerCase();
+
         QueryType type;
         if (str.startsWith("exit")) {
             type = QueryType.EXIT;

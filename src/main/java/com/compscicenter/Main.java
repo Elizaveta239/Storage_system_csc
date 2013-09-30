@@ -38,7 +38,13 @@ public class Main {
 
             System.out.println("Log file exists on your device");
             System.out.println("Would you like to restore your Storage system from it?(1 - true/0 - false)");
-            Integer ans = p.nextInt();
+            Integer ans = 0;
+            try {
+                ans = p.nextInt();
+            } catch (Exception e) {
+                System.out.println("Bad answer!");
+                p.getString();
+            }
             if (ans == 1) {
                 System.out.println("Restoring...");
                 s.restoreFromLog();
