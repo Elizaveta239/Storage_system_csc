@@ -28,7 +28,6 @@ public class StorageTest  {
     @Before
     public void tesUp() throws Exception {
         storage = new Storage();
-        storage.init();
         generatePeople();
     }
 
