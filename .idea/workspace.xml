@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4153f9-fe13-4541-ac24-b3a7f3da7625" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/compscicenter/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/compscicenter/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Storage_system.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380543994217" ignored="false" />
+    <file path="/Dummy.txt" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380544854857" ignored="false" />
     <file path="$PROJECT_DIR$/../Storage_system/.idea/workspace.xml" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380309477931" ignored="false" />
     <file path="/Parser.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380544037306" ignored="false" />
     <file path="/Save.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380399608506" ignored="false" />
@@ -565,7 +563,11 @@
       <created>1380538609288</created>
       <updated>1380538609288</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="parser lower case is edited">
+      <created>1380544863735</created>
+      <updated>1380544863735</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -636,7 +638,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="mainclass manifest is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="parser lower case is edited" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -661,6 +663,7 @@
     <MESSAGE value="test was edited" />
     <MESSAGE value="clean is added" />
     <MESSAGE value="mainclass manifest is added" />
+    <MESSAGE value="parser lower case is edited" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
