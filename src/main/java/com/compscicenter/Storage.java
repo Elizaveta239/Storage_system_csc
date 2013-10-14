@@ -9,15 +9,24 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 
 public class Storage <K, V> {
-    private ConcurrentHashMap storage;
+    //private ConcurrentHashMap storage;
+    private ConcurrentHashMap[] storageArr;
     private FileOutputStream logFileOut;
     private ObjectOutputStream objLogFileOut;
     private FileInputStream logFileIn;
     private ObjectInputStream objLogFileIn;
     private Save save;
+    private static int NUMBER_OF_NODES = 2;
+    private static int NUMBER_OF_LETTERS = 26;
+    private static int SIZE_OF_NODE = NUMBER_OF_LETTERS / NUMBER_OF_NODES;
+    private static String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
 
     Storage() {
-        storage = new ConcurrentHashMap<K, V>();
+        //storage = new ConcurrentHashMap<K, V>();
+        storageArr = new ConcurrentHashMap[NUMBER_OF_NODES];
+        for (int i = 0; i < NUMBER_OF_NODES; ++i) {
+            storageArr[i] = new ConcurrentHashMap<K, V>();
+        }
         try {
             //this.logFileOut = new FileOutputStream("log/Storage_system.log");
             //this.objLogFileOut = new ObjectOutputStream(logFileOut);
@@ -53,6 +62,23 @@ public class Storage <K, V> {
         }
     }
 
+    private static int indexInAlphabet(Character c) {
+        return ALPHABET.indexOf(c);
+    }
+
+    private int getStorageId(Record rec) {
+        String temp = rec.name.toLowerCase();
+        char c = temp.charAt(0);
+        int k = indexInAlphabet(c) / SIZE_OF_NODE;
+        return indexInAlphabet(c) / SIZE_OF_NODE;
+    }
+
+    public int getStorageId(String name) {
+        String temp = name.toLowerCase();
+        char c = temp.charAt(0);
+        return indexInAlphabet(c) / SIZE_OF_NODE;
+    }
+
     public void restoreFromLog() {
         try {
             this.logFileIn = new FileInputStream("log/Storage_system.in.log");
@@ -77,28 +103,28 @@ public class Storage <K, V> {
     }
 
     public boolean isExist(Record rec) {
-        return storage.containsKey(rec.name);
+        return storageArr[this.getStorageId(rec)].containsKey(rec.name);
     }
 
     public boolean addRecord(Record rec) {
-        boolean isExist = storage.containsKey(rec.name);
-        storage.put(rec.name, rec.number);
+        boolean isExist = storageArr[this.getStorageId(rec)].containsKey(rec.name);
+        storageArr[this.getStorageId(rec)].put(rec.name, rec.number);
         return isExist;
     }
 
     public Record getRecord(String name) {
-        boolean isExist = storage.containsKey(name);
+        boolean isExist = storageArr[this.getStorageId(name)].containsKey(name);
         if (isExist) {
-            return new Record(name, (String)storage.get(name));
+            return new Record(name, (String)storageArr[this.getStorageId(name)].get(name));
         } else {
             return null;
         }
     }
 
     public Record deleteRecord(String name) {
-        boolean isExist = storage.containsKey(name);
+        boolean isExist = storageArr[this.getStorageId(name)].containsKey(name);
         if (isExist) {
-            return new Record(name, (String)storage.remove(name));
+            return new Record(name, (String)storageArr[this.getStorageId(name)].remove(name));
         } else {
             return null;
         }

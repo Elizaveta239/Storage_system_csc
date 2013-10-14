@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5c4153f9-fe13-4541-ac24-b3a7f3da7625" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INSTALL" afterPath="$PROJECT_DIR$/INSTALL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/compscicenter/Storage.java" afterPath="$PROJECT_DIR$/src/main/java/com/compscicenter/Storage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/compscicenter/StorageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/compscicenter/StorageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Storage_system.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380544854857" ignored="false" />
+    <file path="/Dummy.txt" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1381740761296" ignored="false" />
     <file path="$PROJECT_DIR$/../Storage_system/.idea/workspace.xml" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380309477931" ignored="false" />
-    <file path="/Parser.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380544037306" ignored="false" />
+    <file path="/Parser.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1381745018501" ignored="false" />
     <file path="/Save.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380399608506" ignored="false" />
-    <file path="/Storage.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380479522230" ignored="false" />
+    <file path="/Storage.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1381744461590" ignored="false" />
     <file path="/Main.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380544747608" ignored="false" />
     <file path="/Query.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380400339068" ignored="false" />
     <file path="/Record.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380400355772" ignored="false" />
     <file path="/QueryType.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380400370099" ignored="false" />
-    <file path="/fragment.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380524522711" ignored="false" />
+    <file path="/fragment.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1381744354381" ignored="false" />
     <file path="/StorageTest.groovy" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380483899370" ignored="false" />
-    <file path="/StorageTest.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380528813623" ignored="false" />
-    <file path="/pom.xml" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380538520596" ignored="false" />
+    <file path="/StorageTest.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1381744485954" ignored="false" />
+    <file path="/pom.xml" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1381745259358" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +42,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -69,7 +79,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -83,7 +92,7 @@
       <file leaf-file-name="Storage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/Storage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="9" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0">
+            <state line="50" column="52" selection-start="1747" selection-end="1747" vertical-scroll-proportion="-28.8">
               <folding />
             </state>
           </provider>
@@ -92,25 +101,34 @@
       <file leaf-file-name="StorageTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/compscicenter/StorageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="32" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
+            <state line="61" column="62" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="70" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.0">
+            <state line="13" column="42" selection-start="566" selection-end="566" vertical-scroll-proportion="0.32554257">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="41" selection-start="468" selection-end="468" vertical-scroll-proportion="0.32554257">
+            <state line="11" column="53" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/QueryType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="31" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,7 +137,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="60" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+            <state line="4" column="31" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,11 +166,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/compscicenter/Record.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/compscicenter/QueryType.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/compscicenter/StorageTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/compscicenter/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/compscicenter/Storage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/compscicenter/StorageTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/compscicenter/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -335,11 +353,11 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.compscicenter" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.compscicenter" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -567,7 +585,11 @@
       <created>1380544863735</created>
       <updated>1380544863735</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="parser lower case is edited">
+      <created>1380544889808</created>
+      <updated>1380544889808</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -577,21 +599,22 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32376397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24860558" sideWeight="0.736" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24860558" sideWeight="0.4672" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -673,13 +696,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/QueryType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/Save.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
@@ -696,44 +712,32 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="24" selection-start="5288" selection-end="5288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="97" column="24" selection-start="5288" selection-end="5288" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="25" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="44" column="25" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="16" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/Result.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="20" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="43" column="20" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/notification/RunNotifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/requests/ClassRequest.class">
@@ -741,44 +745,49 @@
         <state line="15" column="0" selection-start="564" selection-end="564" vertical-scroll-proportion="0.6306306" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="9" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/compscicenter/StorageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/notification/Failure.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="76" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="76" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/QueryType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="70" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.0">
+        <state line="19" column="31" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="60" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+        <state line="4" column="31" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/compscicenter/StorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="62" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="468" selection-end="468" vertical-scroll-proportion="0.32554257">
+        <state line="11" column="53" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/compscicenter/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="52" selection-start="1747" selection-end="1747" vertical-scroll-proportion="-28.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="566" selection-end="566" vertical-scroll-proportion="0.32554257">
           <folding />
         </state>
       </provider>

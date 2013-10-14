@@ -7,6 +7,6 @@ mvn package
 
 In order to run project, print:
 
-java -cp target/Storage_system-1.0-SNAPSHOT.jar com.compscicenter.Main
+java -cp target/Storage_system-2.0.jar com.compscicenter.Main
 
 

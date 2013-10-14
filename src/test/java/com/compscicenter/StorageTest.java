@@ -38,11 +38,32 @@ public class StorageTest  {
         }
     }
 
+    private static void generateAlphabetPeople() {
+        char a = 'a';
+        for (int i = 0; i < 26; ++i) {
+            names[i] = Character.toString(a);
+            numbers[i] = Integer.toString(i);
+            a++;
+        }
+    }
+
     @Test
     public void testAddRecord() throws Exception {
         for (int i = 0; i < N; i++) {
             storage.addRecord(new Record(names[i], numbers[i]));
             assertEquals(storage.getRecord(names[i]).number, numbers[i]);
+        }
+    }
+
+    @Test
+    public void testGetStorageID() throws Exception {
+        generateAlphabetPeople();
+        for (int i = 0; i < 26; i++) {
+            if (i < 13) {
+                assertEquals(storage.getStorageId(names[i]), 0);
+            } else {
+                assertEquals(storage.getStorageId(names[i]), 1);
+            }
         }
     }
 
@@ -53,5 +74,7 @@ public class StorageTest  {
             assertEquals(storage.getRecord(names[i]), null);
         }
     }
+
+
 
 }

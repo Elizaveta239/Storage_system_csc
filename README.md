@@ -14,3 +14,9 @@ delete <name>
 get <name>
 
 All data is saved on computer in log files. The user can restore information from log files.
+
+-------------------------
+Feature Request 2:
+-------------------------
+
+FR2 is added. Data is saved on different nodes with static keys.

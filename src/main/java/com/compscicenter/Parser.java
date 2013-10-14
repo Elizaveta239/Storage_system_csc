@@ -11,7 +11,6 @@ public class Parser {
 
     Parser() {
         scanner = new Scanner(System.in);
-
     }
 
     public boolean hasNextLine() {
@@ -49,6 +48,10 @@ public class Parser {
         String name;
         if (this.scanner.hasNext()) {
             name = this.scanner.next();
+            if (!Character.isLetter(name.charAt(0))) {
+                this.scanner.nextLine();
+                return new Query(null, QueryType.ERROR);
+            }
             if ((type == QueryType.DELETE) || (type == QueryType.GET)) {
                 return new Query(new Record(name, null), type);
             }
