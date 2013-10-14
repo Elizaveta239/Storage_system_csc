@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c4153f9-fe13-4541-ac24-b3a7f3da7625" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INSTALL" afterPath="$PROJECT_DIR$/INSTALL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/compscicenter/Parser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/compscicenter/Storage.java" afterPath="$PROJECT_DIR$/src/main/java/com/compscicenter/Storage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/compscicenter/StorageTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/compscicenter/StorageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Storage_system.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1381740761296" ignored="false" />
+    <file path="/Dummy.txt" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1381745342685" ignored="false" />
     <file path="$PROJECT_DIR$/../Storage_system/.idea/workspace.xml" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380309477931" ignored="false" />
     <file path="/Parser.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1381745018501" ignored="false" />
     <file path="/Save.java" changelist="5c4153f9-fe13-4541-ac24-b3a7f3da7625" time="1380399608506" ignored="false" />
@@ -589,7 +583,11 @@
       <created>1380544889808</created>
       <updated>1380544889808</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="FR2">
+      <created>1381745361372</created>
+      <updated>1381745361372</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -661,7 +659,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="parser lower case is edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="FR2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -687,6 +685,7 @@
     <MESSAGE value="clean is added" />
     <MESSAGE value="mainclass manifest is added" />
     <MESSAGE value="parser lower case is edited" />
+    <MESSAGE value="FR2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
